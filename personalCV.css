@@ -55,3 +55,10 @@ img{
 .themeColor{
   background-color: rgb(175, 207, 233);
 }
+.contactme{
+  float: right;
+}
+.contactme ul li{
+  list-style: none;
+  text-align:left;  
+}
