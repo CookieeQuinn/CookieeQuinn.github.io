@@ -1,0 +1,57 @@
+
+table{
+  border-collapse: collapse;  /* 单元格边框合并 */
+  margin: 0px auto;           /* 表格整体居中显示 */
+  width: 70%;
+  height:auto;
+}
+
+caption{
+  font-size: 20px;
+}
+
+table,tr,td,th{
+  border: 2px solid rgb(12, 12, 66);  /* 设置边框样式 */
+}
+
+td{
+  text-indent: 1em;     /* 单元格内文本缩进 */
+  vertical-align: middle;  /* 把单元格内文本放在父元素垂直中部 */
+  height:40px;
+}
+/* CSS */
+#cvimg{
+  width:120px;
+}
+
+img{
+  display:block; 
+  width:120px;
+  height:"auto" ;
+}
+ 
+
+.colstyle{
+  background: rgb(175, 207, 233);
+  width:100px;
+} 
+
+.righten{
+  float: right;
+  padding-right: 2em;
+}
+
+
+.minititle{
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.spreadline{
+  border-bottom: 2px solid black ;
+}
+
+
+.themeColor{
+  background-color: rgb(175, 207, 233);
+}
