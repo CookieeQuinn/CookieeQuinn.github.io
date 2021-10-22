@@ -1,0 +1,571 @@
+
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  background-color: #f3f5f7;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+/* 版心：居中1200px */
+.heart{
+  width:1200px;
+  margin:0 auto;
+}
+/* 头部盒子 */
+.header{
+  height: 42px;
+  /* background-color: pink; */
+  /* 注意会覆盖版心的auto居中样式 */
+  margin: 30px auto;
+}
+.logo{
+  float:left;
+  width:198x;
+  height:42px;
+}
+.header .nav{
+  float:left;
+  margin-left: 60px;
+}
+.header .nav li {
+  float:left;
+  margin:0 15px;
+}
+.header .nav li a{
+  display:block;
+  height:42px;
+  padding: 0 10px;
+  line-height: 42px;
+  font-size: 18px;
+  color: #050505;
+}
+.header .nav li a:hover{
+  border-bottom: 2px solid rgb(0, 164, 255);
+  
+
+  color:#00a4ff;
+} 
+.search{
+  float:left;
+  width: 412px;
+  height: 42px;
+  margin-left: 70px;
+  /* background-color: rgb(135, 182, 189); */
+}
+.searchbar{
+  float:left;
+  height: 40px;
+  width:345px;
+  border: 1px solid #00a4ff;
+  border-right: none;
+  font-size:14px;
+  padding-left: 15px;
+}
+.searchbar:focus{
+  /* outline: #ffffff solid 2px; */
+  outline: none;
+}
+.search button{
+  float:left;
+  height: 42px;
+  width:50px;
+  border:0;
+  background: url(../images/fa-search.png) ;
+} 
+.user{
+  height: 42px;
+  float:right;
+  margin-right:30px;
+  line-height: 42px;
+  font-size: 14px;
+  color:#666;
+}
+
+
+
+
+/* bannerq区域 */
+.banner{
+  height:420px;
+  background-color: #1c036c;
+}
+
+.banner>.heart{
+  height:420px;
+  background:url(../images/banner2.png);
+}
+.banner .slide{
+  float:left;
+  width:190px;
+  height:380px;
+  padding:20px 0;
+  background-color: #0000008a;
+}
+.slide ul li a{
+  display:block;
+  height:45px;
+  padding:0px 20px;
+  font-size:14px;
+  color:#ffffff ;
+}
+.slide ul li a span{
+  float:right;
+}
+.slide ul li a:hover{
+  color:#00b4ff;
+}
+.banner .mylesson{
+  float:right;
+  height:300px;
+  width:230px;
+  margin-top: 50px;
+  background-color: rgba(255, 255, 255, 0.247);
+
+}
+.banner .mylesson .title{
+    height:48px;
+    background-color: #9bceea;
+    font-size: 18px;
+    color:#ffffff;
+    text-align: center;
+    line-height: 48px;
+}
+.banner .mylesson .content{
+  padding: 10px 0;
+  height:232px;
+  background-color: #ffffff;
+}
+ .details ul li{
+  padding:10px 0;
+  border-bottom: 1px solid  #eaeaea;
+  margin:0 20px;
+}
+.details ul li a{
+color:#4e4e4e;
+}
+.details ul li span{
+  font-size:14px;
+  color:#4e4e4e;
+}
+.details ul li p{
+  font-size:12px;
+  color:#a5a5a5;
+}
+.content .morebtn a{
+  display:block;
+  height:38px;
+  width:198px;
+  margin:10px auto;
+  border:1px solid #22b0ff;
+  text-align: center;
+  line-height: 38px;
+  color:#00a4ff;
+  font-weight: bold;
+}
+/* goods精品模块 */
+.goods{
+  margin-top: 8px;;
+  height:60px;
+  background-color: #fff;
+  box-shadow: 0 2px 3px 3px rgba(0, 0, 0,0.1);
+  line-height: 60px;
+  /* 行高会继承给子盒子 */
+} 
+.goods .title{
+  float:left;
+  padding-left: 35px;
+
+  font-size: 16px;
+  color: #00a4ff;
+  font-weight: bold;
+}
+.goods .goodsitems{
+  float:left;
+  margin-left: 30px;
+
+}
+.goods .goodsitems ul li{
+  float:left;
+}
+.goods .goodsitems ul li a{
+  padding:  0 35px;
+  border-left: 1px solid #bfbfbf;
+  line-height: 60px;
+
+}
+.goods .morebtn {
+  float:right;
+  padding-right: 25px;
+}
+.goods .morebtn a{
+  font-size: 14px;
+  color: #00a4ff;
+}
+
+
+/* boutique区域 */
+.boutique{
+  height: 600px;
+  margin-top: 35px;;
+  background-color: #f3f5f7;
+}
+.boutique .head{
+  height: 40px;
+  background-color: #f3f5f7;
+}
+ .head .title{
+
+  float:left;
+  font-size: 20px;
+  color:#494949;
+}
+ .head .more{
+  float: right;
+  padding-right: 30px;
+  padding-top: 10px;
+  font-size: 12px;
+  color:#a5a5a5;
+} 
+
+
+
+.boutique .btitems ul   {
+  width: 1250px;
+}
+.boutique .btitems ul li {
+  float: left;
+  width: 228px;
+  height: 270px;
+  margin: 0 15px 15px 0;
+  background-color: #ffffff;
+}
+ .btitems ul li .itemimg img{
+  width: 228px;
+  height:152px;
+}
+
+.btitems ul li .itemimg{
+  height:152px;
+}
+.btitems ul li .iteminfo{
+  width: 188px;
+  padding: 20px 20px ;
+}
+.btitems ul li .iteminfo h5{
+  color: #050505;
+  font-size:14px;
+  margin-bottom: 20px;
+}
+.btitems ul li .iteminfo .level{
+  color:#ff7c2d;
+  font-size:12px;
+}
+.btitems ul li .iteminfo .usercount{
+  color :#999999;
+  font-size:12px;
+}
+
+
+
+
+
+/* 编程入门模块 */
+/* modulehead属于页面重复的样式 */
+.modulehead{
+   margin-top: 20px;
+  height: 60px;
+  line-height: 60px;
+  /* background-color: #f3f5f7; */
+}
+.modulehead .title{
+  float: left;
+  font-size: 20px;
+  color: #494949;
+}
+.modulehead .nav{
+  width:500px;
+  margin:0 auto;
+/* 如何居中？？ */
+}
+.modulehead .nav ul>li{
+  float:left;
+}
+.modulehead ul li a {
+  display:block;
+  padding:0 40px;
+  font-size: 16px;
+  color:#868686;
+}
+.modulehead ul li a:hover {
+  border-bottom: none;
+  color:#00a4ff;
+}
+.modulehead .morebtn{
+  float: right;
+  height:60px;
+  padding-right: 30px;
+}
+.modulehead .morebtn a{
+  font-size: 12px;
+  color:#a5a5a5;
+}
+
+.modulecontent{
+  height: 392px;
+  /* background-color: black; */
+}
+ .modulecontent .leftslide{
+  float:left;
+  width: 228px;
+  height: 392px;
+  background-image: url(../images/adv01.png);
+  /* background-repeat: no-repeat; */
+  /* background-size: 228px 392px; */
+}
+ .modulecontent .leftslide .title{
+  padding:47px 0 0 35px;
+}
+ .modulecontent .leftslide .title h3{
+  padding-bottom: 20px;;
+  font-size: 18px;
+  color: #fff;
+}
+ .modulecontent .leftslide .detail{
+  padding-top: 15px;
+  padding-left: 50px;
+}
+ .modulecontent .leftslide .detail h5{
+  padding-bottom: 53px;;
+  font-size: 14px ;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+ .modulecontent .rightwind{
+  /* 浮动，触发BFC */
+  float: right;
+  /* width:959px; */
+  height: 392px;
+  /* background-color: #9ff; */
+}
+
+ .modulecontent .rightwind .topslide {
+
+  float: right;
+  height:100px;
+}
+
+
+ .modulecontent .rightwind .bottomslide{
+  float: right;
+  /* width:959px; */
+  height: 269px;
+  margin-top: 23px;
+  /* background-color: #654; */
+}
+
+
+.modulecontent .bottomslide ul{
+  /* width: 973px; */
+}
+.modulecontent .bottomslide li{
+  float: right;
+  margin-left:14px;
+  width: 229px;
+  height: 269px;
+}
+
+.modulecontent .bottomslide li .goodsimg {
+  /* 隐藏图片的溢出部分 */
+  overflow:hidden;
+  width: 229px; 
+  height: 154px;
+}
+.modulecontent .bottomslide li img {
+  /* 相对本身位置 */
+  position: relative;
+  top: -1px;
+  left: -1px;
+
+}
+
+.modulecontent .bottomslide li .goodsinfo {
+ background-color: #fff;
+ height: 115px;
+ padding-left: 23px;
+ padding-right: 20px;
+}
+
+
+.modulecontent .bottomslide li .goodsinfo h5{
+  padding-top: 25px;
+  height:50px;
+  font-size: 14px;
+}
+
+
+.modulecontent .bottomslide li .goodsinfo p{
+  font-size: 12px;
+  }
+  
+  .modulecontent .bottomslide li .goodsinfo p span{
+    color: #999999;
+  }
+  
+  .modulecontent .bottomslide li .goodsinfo span:first-child{
+    color: #ff7c2d;
+  }
+
+
+
+
+
+
+/* 数据分析师模块 */
+/* 仅对左模块采用浮动，其他采用标准流 */
+
+.footer{
+  height:380px;
+  margin-top: 40px;
+  background-color: #fff;
+}
+.footwin{
+  overflow:hidden;
+  padding-top:35px ;
+  
+
+}
+
+.footwin .footinfo{
+  float: left;
+  padding-left: 20px;
+  /* background-color: pink; */
+
+}
+
+
+.footwin .footguide{
+  float: right;;
+  /* background-color: grey; */
+
+}
+
+.footinfo .logo{
+ float:none;
+}
+.footinfo .desc{
+  margin: 23px 0;
+}
+.footinfo .desc p{
+  font-size: 12px;
+  color: #666666;
+}
+.footinfo button{
+  width:120px;
+  height:32px;
+  border:1px solid #00a4ff;
+  color:#00a4ff;
+  background-color: #fff;
+}
+  
+.footguide  .guide{
+  float: right;
+  margin-left: 60px;
+  padding:0 30px;
+  color: #333333;
+}
+.footguide  .guide .title{
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+.footguide  .guide .guidelist a{
+  font-size: 12px;
+  color: #333333;
+ text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mytest{
+  
+  display:none;
+}
+.fonttype{
+  /* background-color: rgb(206, 176, 176);
+  text-align:center;
+  font-size: 60px;
+  line-height: 60px; */
+
+  border:1px solid black; 
+  line-height:10px; 
+  font-size:60px; 
+  background: red;
+  text-align:center;
+}
+
+.test2{
+  margin:20px;
+  background-color: rgb(99, 77, 77);
+  padding:20px;
+}
+.normalspan{
+  background-color: rgb(122, 126, 185)
+}
+.test3 .floatspan{
+  background-color: rgb(153, 56, 56,0.5);
+  float:left;
+}
+.normaldiv{
+  background-color: rgb(130, 145, 177);
+  height: 100px;
+  width:300px;
+}
+ .floatdiv{
+  background-color: rgba(228, 93, 52, 0.5);
+  float:left;
+  height: 200px;
+  width: 200px;
+}
+
