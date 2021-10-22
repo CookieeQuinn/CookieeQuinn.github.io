@@ -1,0 +1,35 @@
+table{
+  border-collapse: collapse;
+  margin: 100px auto;
+}
+table,tr,td{
+  border: 3px solid black;
+}
+td{
+  width:100px;
+  height:100px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  vertical-align: middle;
+  /* background-color: rgb(255, 255, 255); */
+}
+
+td div{
+  height :100px;
+  line-height:100px;
+  text-align: center;
+}
+
+table #start{
+  background-color: rgb(236, 20, 20);
+  color: black;
+  font-size: 20px;
+}
+ 
+table #unit-0,#unit-2,#unit-4,#unit-6{
+  background-color: rgb(212, 26, 26);
+}
+
+.selected{
+  background-color: rgb(240, 243, 45);
+} 
